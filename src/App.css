@@ -1,0 +1,58 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  position: absolute;
+  width: 100%;
+  color: white;
+  z-index: 20;
+  text-shadow: 1px 1px 1px black;
+}
+
+a {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.section-card {
+  width: 50%;
+  background: white;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+
+.section-card p {
+  margin: 2rem 0;
+}
+
+button {
+  font-size: 1.5rem;
+  background: transparent;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.end {
+  justify-content: flex-end;
+}
+
+.view-container {
+  height: 100%;
+}
